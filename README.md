@@ -47,7 +47,7 @@ pkg update && pkg upgrade -y
 pkg install python -y
 pip install requests
 
-python vuln_uploader.py --target https://example.com/upload.php --file exploit.shtml
+python vuln_uploader.py --target https://example.com/upload.php --file example.shtml
 ```
 ### 2. Di Linux
 ```
@@ -55,7 +55,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install python3 python3-pip -y
 pip3 install requests
 
-python3 vuln_uploader.py --target https://example.com/upload.php --file exploit.shtml
+python3 vuln_uploader.py --target https://example.com/upload.php --file example.shtml
 ```
 ### 3. Di Windows PowerShell
 
@@ -63,7 +63,7 @@ python3 vuln_uploader.py --target https://example.com/upload.php --file exploit.
 ```
 pip install requests
 
-python vuln_uploader.py --target https://example.com/upload.php --file exploit.shtml
+python vuln_uploader.py --target https://example.com/upload.php --file example.shtml
 ```
 
 ---
