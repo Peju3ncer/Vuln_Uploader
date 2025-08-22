@@ -46,6 +46,7 @@ notepad.exe example.shtml
 pkg update && pkg upgrade -y
 pkg install python -y
 pip install requests
+git clone https://github.com/Peju3ncer/Vuln_Uploader.git
 cd Vuln_Uploader
 python vuln_uploader.py --target https://example.com/upload.php --file example.shtml
 ```
@@ -54,6 +55,7 @@ python vuln_uploader.py --target https://example.com/upload.php --file example.s
 sudo apt update && sudo apt upgrade -y
 sudo apt install python3 python3-pip -y
 pip3 install requests
+git clone https://github.com/Peju3ncer/Vuln_Uploader.git
 cd Vuln_Uploader
 python3 vuln_uploader.py --target https://example.com/upload.php --file example.shtml
 ```
@@ -62,6 +64,7 @@ python3 vuln_uploader.py --target https://example.com/upload.php --file example.
 *Pastikan Python sudah terinstall*
 ```
 pip install requests
+git clone https://github.com/Peju3ncer/Vuln_Uploader.git
 cd Vuln_Uploader
 python vuln_uploader.py --target https://example.com/upload.php --file example.shtml
 ```
