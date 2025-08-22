@@ -23,19 +23,19 @@ Berikut cara membuat dan mengedit file di berbagai terminal:
 
 ### Termux
 ```
-nano exploit.shtml
+nano example.shtml
 ```
 ### Linux
 ```
-nano exploit.shtml
+nano example.shtml
 ```
 atau gunakan editor lain seperti vim atau gedit.
 
 ### Windows PowerShell
 ```
-notepad.exe exploit.shtml
+notepad.exe example.shtml
 ```
-(Bisa juga menggunakan editor lain seperti VS Code atau Sublime Text.)
+(Bisa juga menggunakan editor lain seperti VS Code atau Sublime Text, nama file juga boleh diganti sesuai keinginan.)
 
 ---
 
@@ -65,7 +65,7 @@ pip install requests
 
 python vuln_uploader.py --target https://example.com/upload.php --file example.shtml
 ```
-
+**Untuk nama file `.shtml` nya bisa disesuaikan dengan nama file yang ada di directory yang sama dengan `up_vuln.py`.**
 ---
 
 ## Catatan Penting
