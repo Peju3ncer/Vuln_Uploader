@@ -46,7 +46,7 @@ notepad.exe example.shtml
 pkg update && pkg upgrade -y
 pkg install python -y
 pip install requests
-
+cd Vuln_Uploader
 python vuln_uploader.py --target https://example.com/upload.php --file example.shtml
 ```
 ### 2. Di Linux
@@ -54,7 +54,7 @@ python vuln_uploader.py --target https://example.com/upload.php --file example.s
 sudo apt update && sudo apt upgrade -y
 sudo apt install python3 python3-pip -y
 pip3 install requests
-
+cd Vuln_Uploader
 python3 vuln_uploader.py --target https://example.com/upload.php --file example.shtml
 ```
 ### 3. Di Windows PowerShell
@@ -62,7 +62,7 @@ python3 vuln_uploader.py --target https://example.com/upload.php --file example.
 *Pastikan Python sudah terinstall*
 ```
 pip install requests
-
+cd Vuln_Uploader
 python vuln_uploader.py --target https://example.com/upload.php --file example.shtml
 ```
 (Untuk nama file `.shtml` nya bisa disesuaikan dengan nama file yang ada di directory yang sama dengan `up_vuln.py`.)
