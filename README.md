@@ -48,7 +48,7 @@ pkg install python -y
 pip install requests
 git clone https://github.com/Peju3ncer/Vuln_Uploader.git
 cd Vuln_Uploader
-python vuln_uploader.py --target https://example.com/upload.php --file example.shtml
+python up_vuln.py --target https://example.com/upload.php --file example.shtml
 ```
 ### 2. Di Linux
 ```
@@ -57,7 +57,7 @@ sudo apt install python3 python3-pip -y
 pip3 install requests
 git clone https://github.com/Peju3ncer/Vuln_Uploader.git
 cd Vuln_Uploader
-python3 vuln_uploader.py --target https://example.com/upload.php --file example.shtml
+python3 up_vuln.py --target https://example.com/upload.php --file example.shtml
 ```
 ### 3. Di Windows PowerShell
 
@@ -66,7 +66,7 @@ python3 vuln_uploader.py --target https://example.com/upload.php --file example.
 pip install requests
 git clone https://github.com/Peju3ncer/Vuln_Uploader.git
 cd Vuln_Uploader
-python vuln_uploader.py --target https://example.com/upload.php --file example.shtml
+python up_vuln.py --target https://example.com/upload.php --file example.shtml
 ```
 (Untuk nama file `.shtml` nya bisa disesuaikan dengan nama file yang ada di directory yang sama dengan `up_vuln.py`.)
 
