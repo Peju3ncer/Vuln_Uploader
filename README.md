@@ -65,7 +65,7 @@ pip install requests
 
 python vuln_uploader.py --target https://example.com/upload.php --file example.shtml
 ```
-**Untuk nama file `.shtml` nya bisa disesuaikan dengan nama file yang ada di directory yang sama dengan `up_vuln.py`.**
+Untuk nama file `.shtml` nya bisa disesuaikan dengan nama file yang ada di directory yang sama dengan `up_vuln.py`.
 ---
 
 ## Catatan Penting
